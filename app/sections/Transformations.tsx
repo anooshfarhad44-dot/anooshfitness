@@ -114,30 +114,30 @@ export default function Transformations() {
                   <div className="px-5 pt-5 pb-3 border-b border-white/10">
                     <p className="text-xs md:text-sm uppercase tracking-[0.24em] text-[#c9a84c]">Before & After</p>
                   </div>
-                  <div className="grid gap-4 p-5 md:grid-cols-2">
-                    <div className="relative overflow-hidden rounded-[1.5rem] bg-[#111] min-h-[20rem] border border-[#ffffff10]">
+                  <div className="grid grid-cols-2 gap-3 p-3 sm:gap-4 sm:p-5">
+                    <div className="relative overflow-hidden rounded-[1.25rem] bg-[#111] min-h-[12rem] border border-[#ffffff10] sm:min-h-[16rem] md:min-h-[20rem] md:rounded-[1.5rem]">
                       <div className="absolute inset-0 bg-gradient-to-br from-[#c9a84c]/10 via-transparent to-transparent pointer-events-none" />
                       <Image
                         src={item.beforeImg}
                         alt={`${item.id} before`}
                         fill
                         className="object-contain"
-                        sizes="(max-width: 768px) 100vw, 50vw"
+                        sizes="(max-width: 768px) 50vw, 50vw"
                       />
-                      <div className="absolute top-4 left-4 rounded-full bg-black/70 px-3 py-1 text-[11px] uppercase tracking-[0.28em] text-white font-semibold">
+                      <div className="absolute top-2 left-2 rounded-full bg-black/70 px-2 py-0.5 text-[9px] uppercase tracking-[0.18em] text-white font-semibold sm:top-4 sm:left-4 sm:px-3 sm:py-1 sm:text-[11px] sm:tracking-[0.28em]">
                         BEFORE
                       </div>
                     </div>
-                    <div className="relative overflow-hidden rounded-[1.5rem] bg-[#111] min-h-[20rem] border border-[#ffffff10]">
+                    <div className="relative overflow-hidden rounded-[1.25rem] bg-[#111] min-h-[12rem] border border-[#ffffff10] sm:min-h-[16rem] md:min-h-[20rem] md:rounded-[1.5rem]">
                       <div className="absolute inset-0 bg-gradient-to-br from-[#c9a84c]/10 via-transparent to-transparent pointer-events-none" />
                       <Image
                         src={item.afterImg}
                         alt={`${item.id} after`}
                         fill
                         className="object-contain"
-                        sizes="(max-width: 768px) 100vw, 50vw"
+                        sizes="(max-width: 768px) 50vw, 50vw"
                       />
-                      <div className="absolute top-4 right-4 rounded-full bg-[#c9a84c] px-3 py-1 text-[11px] uppercase tracking-[0.28em] text-black font-semibold">
+                      <div className="absolute top-2 right-2 rounded-full bg-[#c9a84c] px-2 py-0.5 text-[9px] uppercase tracking-[0.18em] text-black font-semibold sm:top-4 sm:right-4 sm:px-3 sm:py-1 sm:text-[11px] sm:tracking-[0.28em]">
                         AFTER
                       </div>
                     </div>

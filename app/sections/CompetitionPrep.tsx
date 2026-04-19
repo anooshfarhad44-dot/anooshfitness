@@ -22,23 +22,23 @@ export default function CompetitionPrep() {
           {/* Transformation 1 */}
           <div className="space-y-4">
             <h3 className="text-xl md:text-2xl font-bold text-center">Transformation 1</h3>
-            <div className="grid grid-cols-2 gap-3">
+            <div className="flex gap-3">
               {/* Before */}
-              <div className="relative group">
+              <div className="relative group min-w-0 flex-1">
                 <div className="card-dark rounded-xl overflow-hidden border-2 border-[#333] group-hover:border-gray-500 transition-all">
                   <div className="relative aspect-[3/4] bg-[#1a1a1a]">
                     <Image src="/prep1Before.jpeg" alt="Before - Competition Prep Starting Point" fill className="object-contain" sizes="(max-width: 768px) 50vw, 25vw" />
                   </div>
-                  <div className="absolute top-3 left-3 px-2 py-1 bg-gray-700/80 text-white text-xs font-bold rounded">BEFORE</div>
+                  <div className="absolute top-2 left-2 rounded px-2 py-1 bg-gray-700/80 text-[10px] font-bold text-white sm:top-3 sm:left-3 sm:text-xs">BEFORE</div>
                 </div>
               </div>
               {/* After */}
-              <div className="relative group">
+              <div className="relative group min-w-0 flex-1">
                 <div className="card-dark rounded-xl overflow-hidden border-2 border-[#c9a84c]/50 group-hover:border-[#c9a84c] transition-all shadow-lg shadow-[#c9a84c]/10">
                   <div className="relative aspect-[3/4] bg-[#1a1a1a]">
                     <Image src="/prep1After.jpeg" alt="After - Competition Ready Physique" fill className="object-contain" sizes="(max-width: 768px) 50vw, 25vw" />
                   </div>
-                  <div className="absolute top-3 right-3 px-2 py-1 bg-[#c9a84c] text-black text-xs font-bold rounded">AFTER</div>
+                  <div className="absolute top-2 right-2 rounded px-2 py-1 bg-[#c9a84c] text-[10px] font-bold text-black sm:top-3 sm:right-3 sm:text-xs">AFTER</div>
                 </div>
               </div>
             </div>
@@ -48,23 +48,23 @@ export default function CompetitionPrep() {
           {/* Transformation 2 */}
           <div className="space-y-4">
             <h3 className="text-xl md:text-2xl font-bold text-center">Transformation 2</h3>
-            <div className="grid grid-cols-2 gap-3">
+            <div className="flex gap-3">
               {/* Before */}
-              <div className="relative group">
+              <div className="relative group min-w-0 flex-1">
                 <div className="card-dark rounded-xl overflow-hidden border-2 border-[#333] group-hover:border-gray-500 transition-all">
                   <div className="relative aspect-[3/4] bg-[#1a1a1a]">
                     <Image src="/prep2Before.jpeg" alt="Before - Starting Physique" fill className="object-contain" sizes="(max-width: 768px) 50vw, 25vw" />
                   </div>
-                  <div className="absolute top-3 left-3 px-2 py-1 bg-gray-700/80 text-white text-xs font-bold rounded">BEFORE</div>
+                  <div className="absolute top-2 left-2 rounded px-2 py-1 bg-gray-700/80 text-[10px] font-bold text-white sm:top-3 sm:left-3 sm:text-xs">BEFORE</div>
                 </div>
               </div>
               {/* After */}
-              <div className="relative group">
+              <div className="relative group min-w-0 flex-1">
                 <div className="card-dark rounded-xl overflow-hidden border-2 border-[#c9a84c]/50 group-hover:border-[#c9a84c] transition-all shadow-lg shadow-[#c9a84c]/10">
                   <div className="relative aspect-[3/4] bg-[#1a1a1a]">
                     <Image src="/prep2After.jpeg" alt="After - Stage Ready Peak Condition" fill className="object-contain" sizes="(max-width: 768px) 50vw, 25vw" />
                   </div>
-                  <div className="absolute top-3 right-3 px-2 py-1 bg-[#c9a84c] text-black text-xs font-bold rounded">AFTER</div>
+                  <div className="absolute top-2 right-2 rounded px-2 py-1 bg-[#c9a84c] text-[10px] font-bold text-black sm:top-3 sm:right-3 sm:text-xs">AFTER</div>
                 </div>
               </div>
             </div>
