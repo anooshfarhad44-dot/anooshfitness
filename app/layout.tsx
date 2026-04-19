@@ -9,9 +9,9 @@ export const metadata: Metadata = {
   description:
     "Certified fitness coach, weightlifting champion & fitness model. Transforming lives since 2020. 50+ clients worldwide. Get your personalized fitness plan today.",
   icons: [
-    { rel: "icon", url: "/mainImg.png", type: "image/png" },
-    { rel: "shortcut icon", url: "/mainImg.png", type: "image/png" },
-    { rel: "apple-touch-icon", url: "/mainImg.png", type: "image/png" },
+    { rel: "icon", url: "/logo1.png", type: "image/png" },
+    { rel: "shortcut icon", url: "/logo1.png", type: "image/png" },
+    { rel: "apple-touch-icon", url: "/logo1.png", type: "image/png" },
   ],
 };
 
