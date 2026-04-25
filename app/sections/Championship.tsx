@@ -24,7 +24,7 @@ export default function Championship() {
               <div className="absolute inset-0 bg-gradient-to-br from-[#c9a84c]/30 to-transparent rounded-3xl"></div>
               <div className="absolute -inset-2 bg-gradient-to-r from-[#c9a84c]/30 via-transparent to-[#c9a84c]/30 rounded-3xl blur-xl"></div>
               <div className="relative h-full rounded-3xl overflow-hidden border-2 border-[#c9a84c]/50">
-                <Image src="/weightlifting.jpeg" alt="2022 Weightlifting Championship Victory" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
+                <Image src="/weightLifting.jpeg" alt="2022 Weightlifting Championship Victory" fill className="object-cover" sizes="(max-width: 768px) 100vw, 50vw" />
               </div>
             </div>
             
